@@ -6,12 +6,12 @@ from pyrogram import Client, filters, enums
 from kvsqlite.sync import Client as dt
 p = dict(root='plugins')
 tok = Config.TG_BOT_TOKEN ## توكنك 
-id = 1321338802  ## ايديك
+id = 7107602489  ## ايديك
 db = dt("data.sqlite", 'fuck')
 if not db.get("checker"):
   db.set('checker', None)
 if not db.get("admin_list"):
-  db.set('admin_list', [id, 1321338802])
+  db.set('admin_list', [id, 7107602489])
 if not db.get('ban_list'):
   db.set('ban_list', [])
 if not db.get('sessions'):

@@ -6,7 +6,7 @@ from pyrogram import Client, filters, enums
 from kvsqlite.sync import Client as dt
 p = dict(root='plugins')
 tok = Config.TG_BOT_TOKEN ## توكنك 
-id = 7107602489  ## ايديك
+id = 6619783618  ## ايديك
 db = dt("data.sqlite", 'fuck')
 if not db.get("checker"):
   db.set('checker', None)
